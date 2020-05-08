@@ -26,6 +26,7 @@ alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
 alias matlab='/usr/local/MATLAB/R2013b/bin/matlab'
 alias srvx8='srvx8.img.univie.ac.at'
+alias vim="/usr/local/opt/vim/bin/vim"
 #Path
 export PATH="$PATH:/usr/local/bin/"
 export PATH="$PATH:~/bin/"

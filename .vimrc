@@ -1,5 +1,29 @@
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-python/python-syntax'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'nvie/vim-flake8'
+Plugin 'scrooloose/nerdtree'
+
+
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 syntax on
-set nocompatible
 " os clipboard
 set clipboard=unnamed
 " command-line completion
@@ -48,3 +72,13 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+" plugin settings
+let g:python_highlight_all = 1
+let g:airline_theme="tomorrow"
+let g:ycm_autoclose_preview_window_after_completion=1
+
+
+
+
+" let g:airline_solarized_bg='dark'
