@@ -1,0 +1,11 @@
+editor: 'code'
+tagsymbols: '#'
+highlight: true
+linewrap: 120
+journals:
+  default:
+    journal: '/Users/sven/Documents/.journal/priv.jrnl'
+    encrypt: true
+  work:
+    journal: '/Users/sven/Documents/.journal/work.jrnl'
+    encrypt: false
