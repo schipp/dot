@@ -118,4 +118,21 @@
     },
     "terminal.external.osxExec": "Alacritty.app",
     "terminal.integrated.automationShell.osx": "zsh",
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.cursorStylePerMode.visualline": "block",
+    "editor.lineNumbers": "relative",
+    "vim.statusBarColors.insert": "#51fa7b",
+    "vim.statusBarColors.replace": "#51fa7b",
+    "vim.statusBarColors.normal": "#bd93f9",
+    "vim.statusBarColors.visual": "#ff5555",
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#bd93f9",
+        "statusBar.noFolderBackground": "#bd93f9",
+        "statusBar.debuggingBackground": "#bd93f9"
+    },
 }
