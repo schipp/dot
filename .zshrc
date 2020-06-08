@@ -26,8 +26,8 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-alias l='ls -GA'		                        # Preferred 'ls' implementation
-alias ll='ls -GAl'		                        # Preferred 'ls' implementation
+alias l='ls -GAh'		                        # Preferred 'ls' implementation
+alias ll='ls -GAhl'		                        # Preferred 'ls' implementation
 
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           # Go back 1 directory level
@@ -41,6 +41,11 @@ alias j='jrnl work'
 alias jp='jrnl'
 # tmux
 alias ta="tmux -u attach"
+# alias ca="conda deactivate; conda activate sven ; export CONDA_PROMPT_MODIFIER='sven'"
+alias ca="conda deactivate; conda activate sven"
+
+alias mount_srvx8="sshfs sven@srvx8.img.univie.ac.at:/ /Users/sven/mnt/srvx8"
+alias umount_srvx8="unmount /Users/sven/mnt/srvx8"
 
 
 #Path
@@ -85,4 +90,5 @@ export PYTHON_LIBRARY="/Users/sven/anaconda3/envs/sven/lib/libpython3.7m.dylib"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # # automatically launch into tmux
-# if [ "$TMUX" = "" ]; then tmux -u attach; fi
+# if [ "$TMUX" = "" ]; then tmux -u attach; fiexport PATH="/usr/local/opt/llvm/bin:$PATH"
+export PATH="/usr/local/opt/llvm/bin:$PATH"
