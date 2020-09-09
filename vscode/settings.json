@@ -9,7 +9,7 @@
     "python.condaPath": "python",
     "terminal.integrated.rendererType": "dom",
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "python.dataScience.askForKernelRestart": false,
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
@@ -135,4 +135,11 @@
         "statusBar.noFolderBackground": "#bd93f9",
         "statusBar.debuggingBackground": "#bd93f9"
     },
+    "todo.colors.cancelled": "#ff5555",
+    "todo.colors.done": "#50fa7b",
+    "todo.timekeeping.finished.format": "YYYY-MM-DD HH:mm",
+    "todo.timekeeping.started.format": "YYYY-MM-DD HH:mm",
+    "todo.statistics.statusbar.color": "#44475a",
+    "todo.statistics.project.text": "([pending] · [percentage]%) [est]",
+    "python.pythonPath": "/home/zmaw/u254070/anaconda3/envs/svn/bin/python",
 }
