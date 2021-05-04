@@ -42,11 +42,12 @@ alias jp='jrnl'
 # tmux
 alias ta="tmux -u attach"
 # alias ca="conda deactivate; conda activate sven ; export CONDA_PROMPT_MODIFIER='sven'"
-alias ca="conda deactivate; conda activate sven"
+alias ca="conda deactivate; conda activate sven39"
 
 alias mount_srvx8="sshfs sven@srvx8.img.univie.ac.at:/ /Users/sven/mnt/srvx8"
 alias umount_srvx8="unmount /Users/sven/mnt/srvx8"
 
+alias sshuhh="ssh u254070@login.cen.uni-hamburg.de"
 
 #Path
 export PATH="$PATH:/usr/local/bin/"
@@ -92,3 +93,8 @@ export PYTHON_LIBRARY="/Users/sven/anaconda3/envs/sven/lib/libpython3.7m.dylib"
 # # automatically launch into tmux
 # if [ "$TMUX" = "" ]; then tmux -u attach; fiexport PATH="/usr/local/opt/llvm/bin:$PATH"
 export PATH="/usr/local/opt/llvm/bin:$PATH"
+# julia bin
+export PATH="/Applications/Julia-1.5.app/Contents/Resources/julia/bin:$PATH"
+
+ulimit -S -s unlimited
+limit stacksize unlimited
