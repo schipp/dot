@@ -16,7 +16,7 @@ alias l='ls -GAh'		                        # Preferred 'ls' implementation
 alias ll='ls -GAhl'		                        # Preferred 'ls' implementation
 alias ..='cd ../'                           # Go back 1 directory level
 alias ta="tmux -u attach"
-alias ca="conda deactivate; conda activate seis392"
+alias ca="conda deactivate; conda activate seis395"
 alias sshuhh="ssh u254070@login.cen.uni-hamburg.de"
 
 # PATH
@@ -43,4 +43,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # activate conda Environment
-conda activate seis392
+conda activate seis395
