@@ -1,5 +1,7 @@
-import:
-  - ~/dot/omni.yml
+# import:
+#   - ~/dot/omni.yml
+import: 
+   - "~/dot/rose-pine.yml"
 
 window:
   dimensions:
@@ -122,9 +124,9 @@ shell:
 mouse:
   hide_when_typing: true
 
-  url:
-    launcher:
-      program: open
+  #url:
+  #  launcher:
+  #    program: open
 
 key_bindings:
   - { key: PageUp,    action: ScrollPageUp,  }
